@@ -8,11 +8,11 @@ pre: "<i class='fas fa-cog'></i> "
 
 Once you've [written the image file onto the SD card](/installation/#flashing-an-image), there're a few steps you'll have to follow in order to configure your new Pwnagotchi properly.
 
-## Initial Configuration
-
 {{% notice warning %}}
 <p><b>PLEASE NOTE:</b>As we migraded from <b>yaml</b> to <b>toml</b> as our configuration language, you probably want to have a look at <a href="https://github.com/toml-lang/toml">the toml reference</a>. If you update from an old pwnagotchi version, your old configuration will be loaded and automatically saved in the new toml format. The old configuration won't be deleted, but not be used anymore. In the future yaml-support will be completly dropped.</p>
 {{% /notice %}}
+
+## Initial Configuration
 
 For the initial configuration, the easiest way is creating a new `config.toml` file of the `boot` partition of the SD card.
 This partition should be easily accessible from your computer regardless of your operating system as it is a simple FAT32.
